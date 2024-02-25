@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casptone</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+    <div class="panel1">
+        <div class="hero">
+            <nav>
+                <img src=" " class="logo">
+                <ul>
+                    <li><a href="#" id="home-link">Home</a></li>
+                    <li><a href="#" id="about-link">About</a></li>
+                    <li><a href="#">Services</a></li>
+                </ul>
+                <div>
+                    <a href="#" class="loginbtn">Log-in</a>
+                    <a href="#" class="btn">Singup</a>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <div class="content">
+        
+        <span style="color: rgb(173, 0, 90);"><h2>Shop Online</h2></span><br><h1>Welcome <br>To Montecentro🥺🥺<br></h1>
+        <p>The best Destination to shop and build your Motorcycle Online
+        </p>
+        <a href="#" class="btn">Shop now</a>
+    </div>
+
+    <div>
+        <img src="/image/asd.jpg" class="feature-img">
+    </div>
+
+    <div class="panel2">
+        <h2 class="proc">Practice Area</h2> <br>
+        <p class="par">Learn our ecommerce web more.. <br>
+            to increase the productivity of you business</p>
+        
+    </div>
+    
+    <script>
+        document.getElementById('about-link').addEventListener('click',function(event){
+            event.preventDefault();
+            window.scrollTo({
+                top: 480,
+                behavior: 'smooth'
+            });
+        });
+
+
+        document.getElementById('home-link').addEventListener('click', function(event) {
+            event.preventDefault(); 
+            
+            
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth' 
+            });
+        });
+
+
+    </script>
+
+    <div class="panel3">
+        
+        
+        <a href="https://facebook.com"> <img src="image/fb.png" class="src">
+        </a>
+
+       
+    </div>
+   
+</body>
+</html>

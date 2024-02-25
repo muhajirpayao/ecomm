@@ -1,0 +1,47 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.panel{
+    background: linear-gradient(rgb(18, 10, 10),rgb(211, 0, 169));
+    position: fixed;
+    background-color:rgb(35, 30, 24);
+    color:blanchedalmond ;
+    width: 40%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+}
+
+.panel h1{
+font-size: 40px;
+margin: 5%;
+}
+
+.newpanel{
+    background-color: rgb(137, 137, 137) ;
+    width: 50%;
+    height: 90%;
+    margin: 2%;
+    right: 0%;
+    position: fixed;
+
+}
+
+.newpanel .name{
+    size: 10%;
+    color: brown;
+    position: fixed;
+    
+}
+
+.fill{
+    color: burlywood;
+    
+    margin: 10%;
+    align-items: center;
+}
